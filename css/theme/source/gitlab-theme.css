@@ -1,0 +1,53 @@
+/* Custom Colors */
+:root {
+    --primary-color: #fca326;
+    --secondary-color: #fd6d25;
+    --accent-color: #e34428;
+    --secondary-accent-color: #554588;
+    --background-color: #f9f9f9;
+    --text-color: #f9f9f9;
+}
+
+/* Override Color Properties */
+.reveal section {
+    color: var(--text-color);
+}
+
+.reveal a, .reveal a:visited {
+    color: var(--secondary-color);
+}
+
+.reveal a:hover, .reveal a:active {
+    color: var(--accent-color);
+}
+
+.reveal code, .reveal pre {
+    background-color: var(--accent-color);
+}
+
+.reveal pre code {
+    background-color: var(--accent-color);
+    color: var(--text-color);
+}
+
+.reveal blockquote {
+    border-left: 5px solid var(--secondary-accent-color);
+}
+
+/* Apply Custom Colors Globally */
+.custom-slide {
+    background-color: var(--background-color);
+}
+
+.primary-title {
+    color: var(--primary-color);
+}
+
+.content {
+    color: var(--text-color);
+}
+
+.secondary-link {
+    color: var(--secondary-color);
+}
+
